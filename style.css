@@ -1,0 +1,99 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+/* Nav section */
+.header {
+  background-image: url(./images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-position: bottom -10px right 150px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 87px 120px;
+}
+.header-title {
+  font-size: 24px;
+  color: #3a3a3a;
+}
+nav ul {
+  display: flex;
+  gap: 34px;
+  list-style: none;
+  align-items: center;
+}
+ul li {
+  font-size: 16px;
+  color: #3a3a3a;
+}
+/* Banner Section */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 165px 100px 120px;
+}
+.banner-title {
+  font-size: 52px;
+  color: #3a3a3a;
+  margin-bottom: 10px;
+}
+.banner-description {
+  font-size: 16px;
+  color: #3a3a3a;
+  margin: 0 0 16px 0;
+}
+.image {
+  height: 414px;
+  width: 440px;
+  margin-bottom: 100px;
+}
+.primary-btn {
+  color: white;
+  font-size: 16px;
+  background: #e02c6d;
+  border-radius: 41px;
+  border: none;
+  width: 196px;
+  height: 44px;
+}
+.company {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  border: ;
+}
+.companys hr {
+  margin-top: 16px;
+  margin-bottom: 35px;
+  width: 1210px;
+}
+/* Popular Section */
+.popular {
+  width: 1210px;
+  margin: 0 auto;
+}
+.section-title {
+  text-align: center;
+  margin: 97px 0 40px 0;
+  font-size: 28px;
+  color: #3a3a3a;
+}
+.collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.collections div {
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 16px;
+}
+h5 {
+  font-size: 16px;
+  text-align: right;
+  color: #e02c6d;
+  padding: 10px;
+}
